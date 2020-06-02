@@ -9,7 +9,6 @@ import SignIn from "./pages/SignIn";
 import NewArticleForm from './forms/NewArticleForm';
 import NewAdvertForm from './forms/NewAdvertForm';
 import NewCarouselItemForm from './forms/NewCarouselForm';
-import HamHelper from './pages/HamHelper';
 
 const appStyle = {
   backgroundColor: 'white',
