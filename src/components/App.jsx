@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 import Home from "./pages/Home";
 import SignIn from "./pages/SignIn";
-// import Admin from './pages/Admin';
+import Admin from './pages/Admin';
 import NewArticleForm from './forms/NewArticleForm';
 import NewAdvertForm from './forms/NewAdvertForm';
 import NewCarouselItemForm from './forms/NewCarouselForm';
@@ -37,7 +37,7 @@ class App extends React.Component {
       <Router>
         <Switch>
           <Route exact path="/" component={SignIn} />
-          <Route exact path="/home" component={Home} articleList={this.props.articleList}/>
+          <Route exact path="/admin" component={Admin}/>
           <Route exact path="/article-form" component={NewArticleForm} />
           <Route exact path="/advert-form" component={NewAdvertForm} />
           <Route exact path="/NewCarouselItemForm" component={NewCarouselItemForm} />
