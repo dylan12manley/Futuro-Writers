@@ -1,15 +1,12 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import futuro from '../../assets/images/logo-black-sm.jpg'
-import { Row, Col, Collapse } from 'antd'
-import { MenuOutlined } from '@ant-design/icons'
+import { Row, Col } from 'antd'
 import Hamburger from './Hamburger'
 
 import '../../styles/Header.scss'
 
 function Header(){
-  
-  const { Panel } = Collapse
 
   const mainStyle = {
     position: 'fixed',
