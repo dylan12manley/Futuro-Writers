@@ -1,14 +1,14 @@
 import React from "react";
 import { Carousel } from 'antd';
-import iOS2 from '../../assets/images/iOS2.jpg';
+import writers from '../../assets/images/writers.jpg';
 
 const styledCarousel = {
   paddingTop: 'calc(118px + 5vmin)',
-  height: 'calc(42vh + 30px)',
+  height: 'calc(42vh + 60px)',
 }
 
 const styledImage = {
-  height: 'calc(41vh + 30px)',
+  height: 'calc(41vh + 60px)',
   width: '100%',
 }
 
@@ -19,7 +19,7 @@ function MainCarousel(){
         effect="fade"
         autoplay>
         <div>
-          <img src={iOS2} alt={iOS2} style={styledImage}></img>
+          <img src={writers} alt={writers} style={styledImage}></img>
         </div>
     </Carousel>
     </div>
