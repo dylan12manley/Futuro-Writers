@@ -8,7 +8,7 @@ const Drawer = styled.div`
   position: absolute;
   height: 90%;
   background: black;
-  width: 22vw;
+  width: 20vw;
   left: ${props => props.left}vh;
 `;
 
@@ -62,15 +62,10 @@ class Hamburger extends React.Component {
           {style => (
             <div className='drawer'>
             <Drawer left={style.left}>
-              <p className='link-p'><Link to="/art" style={LinkStz}>Art Now</Link></p>
-              <p className='link-p'><Link to="/fashion" style={LinkStz}>Fashion</Link></p>
-              <p className='link-p'><Link to="/film" style={LinkStz}>Film</Link></p>
-              <p className='link-p'><Link to="/people" style={LinkStz}>Humans</Link></p>
-              <p className='link-p'><Link to="/people" style={LinkStz}>Studios</Link></p>
-              <p className='link-p'><Link to="/sound" style={LinkStz}>Sound</Link></p>
-              <p className='link-p'><Link to="/art" style={LinkStz}>Adventures</Link></p>
-              <p className='link-p'><Link to="/fashion" style={LinkStz}>Rad Places</Link></p>
-              <p className='link-p'><Link to="/film" style={LinkStz}>Store</Link></p>
+              <p className='link-p'><Link to="/article-form" style={LinkStz}>Article</Link></p>
+              <p className='link-p'><Link to="/advert-form" style={LinkStz}>Advert</Link></p>
+              <p className='link-p'><Link to="/featured-item-form" style={LinkStz}>Featured Item</Link></p>
+              <p className='link-p'><Link to="/log-in" style={LinkStz}>Log In</Link></p>
             </Drawer>
             </div>
           )}
