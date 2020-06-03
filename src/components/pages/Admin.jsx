@@ -42,11 +42,11 @@ class Admin extends React.Component {
               padding: 'calc(8px + 1vmin)',
               color: '#38171C'
         }}>
-        <h1>Yo🛸Bru💓</h1> 
+        <h1>🛸Writers'🛸Page🛸</h1> 
         <br></br>
-        <Link to="/newarticleform" >New Article</Link><br/>
-        <Link to="/addad" >New Advert</Link><br/>
-        <Link to="/NewCarouselItemForm" >New Carousel Item</Link><br/>
+        <Link to="/article-form" >New Article</Link><br/>
+        <Link to="/advert-form" >New Advert</Link><br/>
+        <Link to="/featured-item-form" >New Carousel Item</Link><br/>
           <h1>Article List</h1>
           <ArticleList/>
         </Col>

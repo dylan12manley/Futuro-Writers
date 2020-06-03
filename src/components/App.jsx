@@ -40,7 +40,7 @@ class App extends React.Component {
           <Route exact path="/admin" component={Admin}/>
           <Route exact path="/article-form" component={NewArticleForm} />
           <Route exact path="/advert-form" component={NewAdvertForm} />
-          <Route exact path="/NewCarouselItemForm" component={NewCarouselItemForm} />
+          <Route exact path="/featured-item-form" component={NewCarouselItemForm} />
         </Switch>
       </Router>
       </div>

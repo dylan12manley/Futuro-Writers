@@ -1,0 +1,21 @@
+[debug] [2020-06-02T23:25:31.521Z] ----------------------------------------------------------------------
+[debug] [2020-06-02T23:25:31.523Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dylan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-06-02T23:25:31.523Z] CLI Version:   8.0.1
+[debug] [2020-06-02T23:25:31.523Z] Platform:      win32
+[debug] [2020-06-02T23:25:31.523Z] Node Version:  v12.13.0
+[debug] [2020-06-02T23:25:31.524Z] Time:          Tue Jun 02 2020 16:25:31 GMT-0700 (Pacific Daylight Time)
+[debug] [2020-06-02T23:25:31.524Z] ----------------------------------------------------------------------
+[debug] [2020-06-02T23:25:31.525Z] 
+[debug] [2020-06-02T23:25:31.533Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-02T23:25:31.533Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\dylan\React\futuro-writers\futuro-writers
+
