@@ -2,7 +2,7 @@
   "name": "futuro-writers",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dylan12manley.github.io/futuro-writers",
+  "homepage": "https://dylan12manley.github.io/Futuro-Writers",
   "dependencies": {
     "@ant-design/icons": "4.0.0",
     "@testing-library/jest-dom": "^4.2.4",
