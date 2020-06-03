@@ -1,6 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from "react"
+import PropTypes from "prop-types"
 import { useFirestore } from 'react-redux-firebase'
+import Iframe from 'react-iframe'
 
 function NewCarouselSlideForm(props){
 
@@ -41,9 +42,15 @@ function NewCarouselSlideForm(props){
             placeholder='Headline'/>
           <button type='submit'>Add Carousel Slide</button>
         </form>
+        <div>
+          <Iframe url='https://youtube.com/embed/sEjS-9wLPmc?autoplay=1'
+            display='inline-block'
+            allow='autoplay'/>
+        </div>
       </div>
     );
   }
+
 
   NewCarouselSlideForm.propTypes = {
     onNewCarouselSlideCreation: PropTypes.func

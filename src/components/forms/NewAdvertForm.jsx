@@ -1,6 +1,7 @@
 import React from "react";
 import { useFirestore } from 'react-redux-firebase'
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
+import Iframe from 'react-iframe'
 
 function NewAdvertForm(){
 
@@ -48,6 +49,11 @@ function NewAdvertForm(){
           <br></br>
           <Link to="/home" >Home</Link>
         </div>
+        <div>
+        <Iframe url='https://www.youtube.com/embed/ybahtQqsMco?autoplay=1'
+          display='none'
+          allow='autoplay'/>
+      </div>
       </div>
     );
   }
