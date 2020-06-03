@@ -65,7 +65,7 @@ class Hamburger extends React.Component {
               <p className='link-p'><Link to="/article-form" style={LinkStz}>Article</Link></p>
               <p className='link-p'><Link to="/advert-form" style={LinkStz}>Advert</Link></p>
               <p className='link-p'><Link to="/featured-item-form" style={LinkStz}>Featured Item</Link></p>
-              <p className='link-p'><Link to="/log-in" style={LinkStz}>Log In</Link></p>
+              <p className='link-p'><Link to="/signin" style={LinkStz}>Sign Out</Link></p>
             </Drawer>
             </div>
           )}

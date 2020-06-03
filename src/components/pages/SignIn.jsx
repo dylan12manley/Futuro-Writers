@@ -1,6 +1,7 @@
 import React from "react";
 import firebase from "firebase/app";
 import { Link } from "react-router-dom";
+import '../../styles/LogIn.scss'
 
 function SignIn(){
 
@@ -35,9 +36,27 @@ function SignIn(){
   }
 
       return (
-        <div style={{textAlign: 'center'}}>
-          <h1><Link to="/admin" >Admin Page?</Link></h1>
-          <h1>Sign In</h1>
+        <div className='sign-in-body'>
+          <br/><br/>
+          <h1 className='s-i-title'>Welcome to The Futuro Writers' Page.</h1>
+          <br/><br/>
+          <h1 className='s-i-title'>Sign Up:</h1>
+          <form onsubmit={doSignUp}>
+            <input
+              type="email"
+              name="signinEmail"
+              placeholder="new email"
+            />
+        
+            <input
+              type="password"
+              name="signinPassword"
+              placeholder="new Password"
+            />
+            <button type='submit'>Sign up</button>
+          </form>
+          <br/><br/>
+          <h1 className='s-i-title'>Sign In:</h1>
           <form onSubmit={doSignIn}>
             <input
               type='text'
@@ -49,26 +68,10 @@ function SignIn(){
               placeholder='Password' />
             <button type='submit'>Sign in</button>
           </form>
-
-<br></br> <br></br>
-          <h1>Sign Up</h1>
-          <form onsubmit={doSignUp}>
-            <input
-              type="email"
-              name="signinEmail"
-              placeholder="new email"
-            />
-         
-            <input
-              type="password"
-              name="signinPassword"
-              placeholder="new Password"
-            />
-            <button type='submit'>Sign up</button>
-        </form>
-        <br></br>
-          <h1>Sign Out</h1>
-          <button onClick={doSignOut}>Sign out</button>
+           <br/><br/>
+            <h1><Link className='link' to="/writers" >Go to the Writers page?</Link></h1>
+        <br/>
+          <button className='sign-out-btn' onClick={doSignOut}>Sign out</button>
         </div>
       );
 

@@ -43,10 +43,10 @@ class Admin extends React.Component {
               color: '#38171C'
         }}>
         <h1>🛸Writers'🛸Page🛸</h1> 
-        <br></br>
-        <Link to="/article-form" >New Article</Link><br/>
-        <Link to="/advert-form" >New Advert</Link><br/>
-        <Link to="/featured-item-form" >New Carousel Item</Link><br/>
+        <br/>
+        <Link className='link' to="/article-form" >New Article</Link><br/>
+        {/* <Link to="/advert-form" >New Advert</Link><br/>
+        <Link to="/featured-item-form" >New Carousel Item</Link> */}
           <h1>Article List</h1>
           <ArticleList/>
         </Col>

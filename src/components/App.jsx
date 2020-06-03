@@ -35,7 +35,8 @@ class App extends React.Component {
       <Router>
         <Switch>
           <Route exact path="/" component={SignIn} />
-          <Route exact path="/admin" component={Admin}/>
+          <Route exact path="/signin" component={SignIn} />
+          <Route exact path="/writers" component={Admin}/>
           <Route exact path="/article-form" component={NewArticleForm} />
           <Route exact path="/advert-form" component={NewAdvertForm} />
           <Route exact path="/featured-item-form" component={NewCarouselItemForm} />

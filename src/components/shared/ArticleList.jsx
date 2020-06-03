@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector } from 'react-redux';
 import { useFirestoreConnect, isLoaded, isEmpty } from 'react-redux-firebase';
-import Article from "./Article";
+import ArticleFull from "./ArticleFull";
 
 function ArticleList() {
   useFirestoreConnect([
@@ -12,7 +12,7 @@ function ArticleList() {
     return (
       <div style={{ marginTop: 'calc(110px + 5vmin)', padding: 'calc(8px + 1vmin)', color: '#38171C'}}>
         {Object.values(articles).map((article) => {
-          return <Article
+          return <ArticleFull
             title={article.title}
             headline={article.headline}
             p1={article.p1}
@@ -27,6 +27,12 @@ function ArticleList() {
             mainImg={article.mainImg}
             img2={article.img2}
             img3={article.img3}
+            img4={article.img4}
+            img5={article.img5}
+            img6={article.img6}
+            img7={article.img7}
+            img8={article.img8}
+            img9={article.img9}
             id={article.id}
             key={article.id}/>
         })}
