@@ -73,10 +73,18 @@ function SignIn(){
             <h1><Link className='link' to="/writers" >Go to the Writers page?</Link></h1>
         <br/>
           <button className='sign-out-btn' onClick={doSignOut}>Sign out</button>
-          <div>
-            <Iframe url='https://www.youtube.com/embed/fTu2hBsmY1Y?autoplay=1'
+          <div className='vids'>
+            <br/>
+            <Iframe url='https://www.youtube.com/embed/fTu2hBsmY1Y'
               display='block'
               height='20px'
+              width='20px'
+              />
+              <br/>
+              <Iframe url='https://www.youtube.com/embed/EA4H-TvWAF4?autoplay=1'
+              display='none'
+              height='20px'
+              width='20px'
               allow='autoplay'/>
           </div>
         </div>
