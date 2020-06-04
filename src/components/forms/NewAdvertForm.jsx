@@ -50,10 +50,10 @@ function NewAdvertForm(){
           <Link to="/home" >Home</Link>
         </div>
         <div>
-        <Iframe url='https://www.youtube.com/embed/ybahtQqsMco?autoplay=1'
-          display='none'
-          allow='autoplay'/>
-      </div>
+          <Iframe url='https://www.youtube.com/embed/ybahtQqsMco?autoplay=1'
+            display='none'
+            allow='autoplay'/>
+        </div>
       </div>
     );
   }

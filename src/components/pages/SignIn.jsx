@@ -1,7 +1,8 @@
-import React from "react";
-import firebase from "firebase/app";
-import { Link } from "react-router-dom";
+import React from "react"
+import firebase from "firebase/app"
+import { Link } from "react-router-dom"
 import '../../styles/LogIn.scss'
+import Iframe from 'react-iframe'
 
 function SignIn(){
 
@@ -72,11 +73,15 @@ function SignIn(){
             <h1><Link className='link' to="/writers" >Go to the Writers page?</Link></h1>
         <br/>
           <button className='sign-out-btn' onClick={doSignOut}>Sign out</button>
+          <div>
+            <Iframe url='https://www.youtube.com/embed/fTu2hBsmY1Y?autoplay=1'
+              display='block'
+              height='20px'
+              allow='autoplay'/>
+          </div>
         </div>
       );
-
       
-
   }
 
 export default SignIn

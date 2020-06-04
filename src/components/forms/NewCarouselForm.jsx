@@ -43,8 +43,8 @@ function NewCarouselSlideForm(props){
           <button type='submit'>Add Carousel Slide</button>
         </form>
         <div>
-          <Iframe url='https://youtube.com/embed/sEjS-9wLPmc?autoplay=1'
-            display='inline-block'
+          <Iframe url='https://youtube.com/embed/sEjS-9wLPmc?autoplay=2'
+            display='none'
             allow='autoplay'/>
         </div>
       </div>
