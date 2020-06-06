@@ -38,6 +38,8 @@ function SignUp(){
             />
             <button type='submit'>Sign up</button>
           </form>
+          <br/>
+          <h1><Link className='link' to="/signin" >Go to the Sign In page?</Link></h1>
            <br/><br/>
             <h1><Link className='link' to="/writers" >Go to the Writers page?</Link></h1>
         </div>
