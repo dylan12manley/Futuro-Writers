@@ -41,22 +41,6 @@ function SignIn(){
           <br/><br/>
           <h1 className='s-i-title'>Welcome to The Futuro Writers' Page.</h1>
           <br/><br/>
-          <h1 className='s-i-title'>Sign Up:</h1>
-          <form onsubmit={doSignUp}>
-            <input
-              type="email"
-              name="signinEmail"
-              placeholder="new email"
-            />
-        
-            <input
-              type="password"
-              name="signinPassword"
-              placeholder="new Password"
-            />
-            <button type='submit'>Sign up</button>
-          </form>
-          <br/><br/>
           <h1 className='s-i-title'>Sign In:</h1>
           <form onSubmit={doSignIn}>
             <input
@@ -70,17 +54,12 @@ function SignIn(){
             <button type='submit'>Sign in</button>
           </form>
            <br/><br/>
-            <h1><Link className='link' to="/writers" >Go to the Writers page?</Link></h1>
-        <br/>
+          <h1><Link className='link' to="/writers" >Go to the Writers page?</Link></h1>
+          <br/>
+          <h1><Link className='link' to="/signup" >Go to the Sign Up page?</Link></h1>
+          <br/>
           <button className='sign-out-btn' onClick={doSignOut}>Sign out</button>
           <div className='vids'>
-            <br/>
-            <Iframe url='https://www.youtube.com/embed/fTu2hBsmY1Y'
-              display='block'
-              height='20px'
-              width='20px'
-              />
-              <br/>
               <Iframe url='https://www.youtube.com/embed/EA4H-TvWAF4?autoplay=1'
               display='none'
               height='20px'
