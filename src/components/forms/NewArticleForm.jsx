@@ -251,8 +251,7 @@ function NewArticleForm(){
             paddingTop: '4vh',
             textAlign: 'center',
             color: '#8E545E',}}>
-          <Link style={linkStyle} to="/admin" >Admin Page</Link>
-          <Link style={linkStyle} to="/home" >Home</Link>
+          <Link style={linkStyle} to="/writers" >Writers' Page</Link>
         </div>
       </div>
       </div>
