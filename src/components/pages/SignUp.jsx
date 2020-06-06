@@ -19,7 +19,7 @@ function SignUp(){
 
 
       return (
-        <div className='sign-up-body'>
+        <div className='sign-in-body'>
           <br/><br/>
           <h1 className='s-i-title'>Welcome to The Futuro Writers' Page.</h1>
           <br/><br/>

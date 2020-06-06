@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { connect } from 'react-redux';
 import PropTypes from "prop-types";
 import SignIn from "./pages/SignIn";
+import SignUp from "./pages/SignUp";
 import Admin from './pages/Admin';
 import NewArticleForm from './forms/NewArticleForm';
 import NewAdvertForm from './forms/NewAdvertForm';
@@ -36,6 +37,7 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" component={SignIn} />
           <Route exact path="/signin" component={SignIn} />
+          <Route exact path="/signup" component={SignUp} />
           <Route exact path="/writers" component={Admin}/>
           <Route exact path="/article-form" component={NewArticleForm} />
           <Route exact path="/advert-form" component={NewAdvertForm} />
