@@ -103,32 +103,16 @@ function NewArticleForm(){
           <Row>
             <Col lg={0} xl={1} xxl={2}></Col>
             <Col xs={24} sm={6} lg={6} xl={5} xxl={6}>
-              <input
-                type='text'
-                name='title'
-                placeholder='Title' 
-                style={inputStyle}/>
+              <input type='text' name='title' placeholder='Title'  style={inputStyle}/>
             </Col>
             <Col xs={24} sm={6} xxl={6}>
-              <input
-                type='text'
-                name='author'
-                placeholder='Author' 
-                style={inputStyle}/>
+              <input type='text' name='author' placeholder='Author'  style={inputStyle}/>
             </Col>
             <Col xs={24} sm={6} lg={6} xl={5} xxl={6}>
-              <input
-                type='text'
-                name='date'
-                placeholder='Date' 
-                style={inputStyle}/>
+              <input type='text' name='date' placeholder='Date'  style={inputStyle}/>
             </Col>
             <Col xs={24} sm={6} lg={6} xl={5} xxl={6}>
-              <input
-                type='text'
-                name='category'
-                placeholder='Category'
-                style={inputStyle}/>
+              <input type='text' name='category' placeholder='Category' style={inputStyle}/>
             </Col>
             <Col lg={0} xl={1} xxl={2}></Col>
           </Row>
@@ -139,121 +123,39 @@ function NewArticleForm(){
                 type='text'
                 name='headline'
                 placeholder='Headline'
-                style={{
-                  width: '89%',
-                  marginLeft: '4vmin',
-                  margin: '2.5vmin',
-                  backgroundColor: '#EFEFEF', 
-                  border: '1.2px solid #A86470', 
-                  borderRadius: '3px',
-                }}/>
+                style={{ width: '89%', marginLeft: '4vmin', margin: '2.5vmin', backgroundColor: '#EFEFEF',  border: '1.2px solid #A86470',  borderRadius: '3px',}}/>
               <div style ={{border: '3px double #A86470', borderRadius: '5px'}}>
                 <h1 style={headerStyle}>Image URLs</h1>
-                <input
-                  type='string'
-                  name='mainImg'
-                  placeholder='URL for Main Image'
-                  style={imgInputStyle}/>
+                <input type='string' name='mainImg' placeholder='URL for Main Image' style={imgInputStyle}/>
                   <br></br>
-                <input
-                  type='string'
-                  name='img2'
-                  placeholder='2nd Img URL'
-                  style={imgInputStyle}/>
-                <input
-                  type='string'
-                  name='img3'
-                  placeholder='3rd Img URL'
-                  style={imgInputStyle}/>
-                <input
-                  type='string'
-                  name='img4'
-                  placeholder='4th Img URL'
-                  style={imgInputStyle}/>
-                <input
-                  type='string'
-                  name='img5'
-                  placeholder='5th Img URL'
-                  style={imgInputStyle}/>
-                <input
-                  type='string'
-                  name='img6'
-                  placeholder='6th Img URL'
-                  style={imgInputStyle}
-                />
-                <input
-                  type='string'
-                  name='img7'
-                  placeholder='7th Img URL'
-                  style={imgInputStyle}
-                />
-                <input
-                  type='string'
-                  name='img8'
-                  placeholder='8th Img URL'
-                  style={imgInputStyle}
-                />
-                <input
-                  type='string'
-                  name='img9'
-                  placeholder='9th Img URL'
-                  style={imgInputStyle}
-                />
+                <input type='string' name='img2' placeholder='2nd Img URL' style={imgInputStyle}/>
+                <input type='string' name='img3' placeholder='3rd Img URL' style={imgInputStyle}/>
+                <input type='string' name='img4' placeholder='4th Img URL' style={imgInputStyle}/>
+                <input type='string' name='img5' placeholder='5th Img URL' style={imgInputStyle}/>
+                <input type='string' name='img6' placeholder='6th Img URL' style={imgInputStyle}/>
+                <input type='string' name='img7' placeholder='7th Img URL' style={imgInputStyle}/>
+                <input type='string' name='img8' placeholder='8th Img URL' style={imgInputStyle}/>
+                <input type='string' name='img9' placeholder='9th Img URL' style={imgInputStyle}/>
               </div>
-              <textarea
-                name='p4'
-                placeholder='Part 4'
-                style={bodyStyle2}
+              <textarea name='p4' placeholder='Part 4' style={bodyStyle2}
               />
             </Col>
-             <Col xs={24} sm={10} lg={10} xl={9} xxl={8}>
-            <textarea
-              name='p1'
-              placeholder='Part 1'
-              style={bodyStyle}
-              />
-              <textarea
-              name='p2'
-              placeholder='Part 2'
-              style={bodyStyle}
-              />
-              <textarea
-              name='p3'
-              placeholder='Part 3'
-              style={bodyStyle}/>
-              <textarea
-                name='p5'
-                placeholder='Part 5'
-                style={bodyStyle}
-              />
-              <textarea
-              name='p6'
-              placeholder='Part 6'
-              style={bodyStyle}/>
+            <Col xs={24} sm={10} lg={10} xl={9} xxl={8}>
+              <textarea name='p1' placeholder='Part 1' style={bodyStyle} />
+              <textarea name='p2' placeholder='Part 2' style={bodyStyle} />
+              <textarea name='p3' placeholder='Part 3' style={bodyStyle}/>
+              <textarea name='p5' placeholder='Part 5' style={bodyStyle}/>
+              <textarea name='p6' placeholder='Part 6'style={bodyStyle}/>
               </Col>
-            <Col lg={0} xl={1} xxl={2}></Col>
-          </Row>
-            <button 
-            type='submit'
-            style={{
-              height: 'calc(8px+2vh)',
-              width: '20vh',
-              fontSize: '2.75vh',
-              borderRadius: '5px',
-              border: '6px double', 
-              overflow: 'hide',
-              backgroundColor: '#BF9D95',
-              }}>Add Article</button>
-        
-        </form>
-        <div 
-          style={{
-            paddingTop: '4vh',
-            textAlign: 'center',
-            color: '#8E545E',}}>
-          <Link style={linkStyle} to="/writers" >Writers' Page</Link>
+              <Col lg={0} xl={1} xxl={2}></Col>
+            </Row>
+            <button type='submit' style={{ height: 'calc(8px+2vh)', width: '20vh', fontSize: '2.75vh', borderRadius: '5px', border: '6px double',  overflow: 'hide', backgroundColor: '#BF9D95',}}>  Add Article
+            </button>
+          </form>
+          <div className='writers-link' style={{ paddingTop: '4vh', textAlign: 'center', color: '#8E545E',}}>
+            <Link style={linkStyle} to="/writers" >Writers' Page</Link>
+          </div>
         </div>
-      </div>
       </div>
     );
   }
