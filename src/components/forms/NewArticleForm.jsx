@@ -37,18 +37,7 @@ function NewArticleForm(){
       }
     );
   }
-  const linkStyle = {
-    height: 'calc(8px+2vh)',
-    width: '20vh',
-    fontSize: '2.75vh',
-    borderRadius: '5px',
-    border: '6px double', 
-    overflow: 'hide',
-    color: '#102118',
-    backgroundColor: '#BF9D95',
-    marginRight: '1vmin',
-    marginLeft: '1vmin',
-  }
+
   return (
     <div style={{ 
       backgroundColor: '#4F121C', 
@@ -78,7 +67,7 @@ function NewArticleForm(){
             <textarea type='text' name='headline' placeholder='Headline' className='headline'/>
           </Row>
           <Row>
-            <h1 className='header'>Article Body</h1>
+            <h1 className='header-two'>Article Body</h1>
           </Row>
           <Row>
             <Col>
@@ -98,7 +87,7 @@ function NewArticleForm(){
           </Row>
           <Row>
             <Col> 
-            <input type='string' name='img3' placeholder='3rd Img URL' className='image-input'/> */}
+            <input type='string' name='img3' placeholder='3rd Img URL' className='image-input'/> 
             </Col>
             <Col>
             <textarea name='p3' placeholder='Part 3' className='text-input'/>
@@ -148,9 +137,9 @@ function NewArticleForm(){
             <Col>
             <input type='string' name='img9' placeholder='9th Img URL' className='image-input'/>
             </Col>
-            </Row>
-            <Row>
-            <textarea name='p9' placeholder='Part 9'className='text-input'/>          
+            <Col>
+            <textarea name='p9' placeholder='Part 9'className='text-input'/>   
+            </Col>       
           </Row>
             <button type='submit' style={{ height: 'calc(8px+2vh)', width: '20vh', fontSize: '2.75vh', borderRadius: '5px', border: '6px double',  overflow: 'hide', backgroundColor: '#BF9D95',}}>  Add Article
             </button>
