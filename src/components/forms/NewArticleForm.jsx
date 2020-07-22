@@ -66,7 +66,7 @@ function NewArticleForm(){
               <input type='text' name='author' placeholder='Author'  className='input-a'/>
             </Col>
             </Row>
-          <Row>
+          <Row className='row-two'>
             <Col xs={24} sm={12} lg={12} xl={12} xxl={12}>
               <input type='text' name='date' placeholder='Date'  className='input-a'/>
             </Col>
@@ -76,24 +76,80 @@ function NewArticleForm(){
           </Row>
           <Row>
             <textarea type='text' name='headline' placeholder='Headline' className='headline'/>
+          </Row>
+          <Row>
             <h1 className='header'>Article Body</h1>
+          </Row>
+          <Row>
+            <Col>
             <input type='string' name='mainImg' placeholder='URL for Main Image' className='image-input'/>
+            </Col>
+            <Col>
             <textarea name='p1' placeholder='Part 1' className='text-input'/>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
             <input type='string' name='img2' placeholder='2nd Img URL' className='image-input'/>
+            </Col>
+            <Col>
             <textarea name='p2' placeholder='Part 2' className='text-input'/>
-            <input type='string' name='img3' placeholder='3rd Img URL' className='image-input'/>
+            </Col>
+          </Row>
+          <Row>
+            <Col> 
+            <input type='string' name='img3' placeholder='3rd Img URL' className='image-input'/> */}
+            </Col>
+            <Col>
             <textarea name='p3' placeholder='Part 3' className='text-input'/>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
             <input type='string' name='img4' placeholder='4th Img URL' className='image-input'/>
+            </Col>
+            <Col>
             <textarea name='p4' placeholder='Part 4' className='text-input'/>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
             <input type='string' name='img5' placeholder='5th Img URL' className='image-input'/>
+            </Col>
+            <Col>
             <textarea name='p5' placeholder='Part 5' className='text-input'/>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
             <input type='string' name='img6' placeholder='6th Img URL' className='image-input'/>
+            </Col>
+            <Col>
             <textarea name='p6' placeholder='Part 6'className='text-input'/>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
             <input type='string' name='img7' placeholder='7th Img URL' className='image-input'/>
+            </Col>
+            <Col>
             <textarea name='p7' placeholder='Part 7'className='text-input'/>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
             <input type='string' name='img8' placeholder='8th Img URL' className='image-input'/>
+            </Col>
+            <Col>
             <textarea name='p8' placeholder='Part 8'className='text-input'/>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
             <input type='string' name='img9' placeholder='9th Img URL' className='image-input'/>
+            </Col>
+            </Row>
+            <Row>
             <textarea name='p9' placeholder='Part 9'className='text-input'/>          
           </Row>
             <button type='submit' style={{ height: 'calc(8px+2vh)', width: '20vh', fontSize: '2.75vh', borderRadius: '5px', border: '6px double',  overflow: 'hide', backgroundColor: '#BF9D95',}}>  Add Article

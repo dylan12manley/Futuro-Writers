@@ -16,7 +16,8 @@
     background-color: #EFEFEF; 
     border: 1.2px solid #A86470; 
     border-radius: 3px; 
-    width: 98%}
+    width: 52vw;
+  }
 
 .image-input { 
     margin: 1.5vmin;
@@ -24,6 +25,7 @@
     border: 1.2px solid #A86470;
     border-radius: 3px;
     width: 89%;
+    width: 20vw;
   }
   
 .header { 
@@ -43,4 +45,15 @@
     background-color: #BF9D95;
     margin-right: 1vmin;
     margin-left: 1vmin;
+}
+
+.row-two {
+  margin-bottom: 10px;
+}
+
+.input-a {
+    width: 35vw; 
+    margin: 5px;
+    height: 40px; 
+    font-size: 25px;
 }
