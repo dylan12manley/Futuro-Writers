@@ -1,7 +1,10 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { useFirestore } from 'react-redux-firebase'
+import { useFirestore } from 'react-redux-firebase';
 import Iframe from 'react-iframe'
+import { Link } from "react-router-dom";
+import { Row, Col } from 'antd';
+import './styles/FeaturedForm.scss'
 
 function NewCarouselSlideForm(props){
 
@@ -26,20 +29,27 @@ function NewCarouselSlideForm(props){
   }
 
   return (
-      <div style={formStyle}>
+      <div class='fFormBody'>
+        <h1>Create a Featured Article Card</h1>
         <form onSubmit={addCarouselSlideToFirestore}>
           <input
             type='string'
             name='image'
             placeholder='Image'/>
+          <br/>
+          <br/>
          <input
             type='text'
             name='articleLink'
             placeholder='Article Link'/>
+          <br/>
+          <br/>
           <textarea
             type='text'
             name='headline'
             placeholder='Headline'/>
+          <br/>
+          <br/>
           <button type='submit'>Add Carousel Slide</button>
         </form>
         <div>
