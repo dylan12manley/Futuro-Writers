@@ -1,3 +1,11 @@
+# Futuro Magazine Writers Portal
+
+## Created By Dylan Manley and Joey Futuro 
+### For Futuro Magazine 2020
+
+MIT Liscence 2020
+
+
 ___________      __                                         
 \_   _____/_ ___/  |_ __ _________  ____                    
  |    __)|  |  \   __\  |  \_  __ \/  _ \                   
@@ -20,7 +28,3 @@ ___________      __
  |  ___/ /\ \| | |_ |  __|  
  | |  / ____ \ |__| | |____ 
  |_| /_/    \_\_____|______| 
- 
-
-#Created By Dylan Manley for Joey Futuro
-
