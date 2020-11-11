@@ -1,10 +1,11 @@
 .sign-in-body {
     text-align: center;
     background-color: black;
-    height: 100vh;
+    height: 100%;
 }
 .s-i-title {
     color: white;
+    padding-right: 2vmin;
 }
 .sign-out-btn {
   height: 50px;
@@ -24,3 +25,8 @@
     color:white;
     text-decoration: none;
   } 
+
+  .input-title {
+    color: white;
+    margin-right: 2vmin;
+  }

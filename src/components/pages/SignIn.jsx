@@ -3,6 +3,7 @@ import firebase from "firebase/app"
 import { Link } from "react-router-dom"
 import '../../styles/LogIn.scss'
 import Iframe from 'react-iframe'
+import WritersTitle from '../../assets/images/assci-title.png'
 
 function SignIn(){
 
@@ -39,19 +40,23 @@ function SignIn(){
       return (
         <div className='sign-in-body'>
           <br/><br/>
-          <h1 className='s-i-title'>Welcome to The Futuro Writers' Page.</h1>
-          <br/><br/>
-          <h1 className='s-i-title'>Sign In:</h1>
+          
+          <img src={WritersTitle} className='title' alt='writers title'></img>
+          
           <form onSubmit={doSignIn}>
-            <input
-              type='text'
-              name='signinEmail'
-              placeholder='email' />
-            <input
-              type='password'
-              name='signinPassword'
-              placeholder='Password' />
-            <button type='submit'>Sign in</button>
+            <div className='s-i-title'> 
+              <h2><span className='input-title'>Sign In:</span>
+                <input
+                  type='text'
+                  name='signinEmail'
+                  placeholder='Email - user@email.com' />
+                <input
+                  type='password'
+                  name='signinPassword'
+                  placeholder='Password' />
+                <button type='submit'>sGo!</button>
+              </h2>
+            </div>
           </form>
            <br/><br/>
           <h1><Link className='link' to="/writers" >Go to the Writers page?</Link></h1>
